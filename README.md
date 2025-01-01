@@ -1,11 +1,4 @@
 # SDK for Cloudflare Workers
-This beta package (unstable) includes a few tools we've found useful while developing on the Cloudflare Developer platform.
-
-Here’s a revised version reflecting that the repository and the NPM package may be removed:
-
----
-
-# SDK for Cloudflare Workers
 
 This beta package (unstable) includes several tools we found useful while developing on the Cloudflare Developer platform.
 
