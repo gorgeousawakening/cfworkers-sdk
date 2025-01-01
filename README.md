@@ -1,6 +1,30 @@
 # SDK for Cloudflare Workers
 This beta package (unstable) includes a few tools we've found useful while developing on the Cloudflare Developer platform.
 
+Here’s a revised version reflecting that the repository and the NPM package may be removed:
+
+---
+
+# SDK for Cloudflare Workers
+
+This beta package (unstable) includes several tools we found useful while developing on the Cloudflare Developer platform.
+
+---
+
+> [!WARNING]  
+> **Archived Repository**  
+> This repository is no longer actively maintained and may be removed in the future. As we transition our most complex workflows to more flexible hosting solutions, we have migrated the following core services away from Cloudflare Workers®:  
+> - **Authentication**  
+> - **File Uploads** (we still recommend checking out [Cloudflare R2](https://www.cloudflare.com/products/r2/) for storage — *we have no financial incentive in suggesting R2 in this document*)  
+> - **Database Operations**, due to the exponential growth in demands for our latest applications  
+> - **Video Management**, where Cloudflare was only used for storage, not encoding
+> - **Link Shortening**, which we no longer provide to direct users, only through automated APIs that trigger when a supported application is used
+>  
+> Additionally, the name `cfworkers-sdk` became misleading as the project evolved, incorporating utilities that extended beyond the Workers® platform. Implementing these utilities also required advanced knowledge, making the SDK less accessible to the broader community.  
+>  
+> The associated NPM package, `@homeapis/cfworkers-sdk`, is currently available but may also be removed without notice. We recommend migrating to alternative solutions if you rely on this package.
+---
+
 It includes code to reduce time to ship for the following edge computing services:
 - A link shortening tool
 - URL-based Image storage with Cloudflare R2
